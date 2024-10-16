@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNIP - Graduação Presencial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-color: #002f87;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 24px;
+      position: relative;
+    }
+
+    .header img {
+      width: 100px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .grid-item {
+      background-color: #6495ed;
+      color: white;
+      border-radius: 8px;
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.3s;
+    }
+
+    .grid-item:hover {
+      background-color: #507acb;
+    }
+
+    .grid-item i {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://unip.br/assets/img/logo/logo-unip.svg" alt="UNIP Logo">
+    <p>GRADUAÇÃO PRESENCIAL</p>
+  </div>
+
+  <div class="grid-container">
+    <a href="/imagem.html?img=/cadastro.png" class="grid-item">
+      <i class="fas fa-user-circle"></i>
+      <p class="title">Meu Cadastro</p>
+    </a>
+    <a href="/imagem.html?img=/dados_curso.png" class="grid-item">
+      <i class="fas fa-book"></i>
+      <p class="title">Dados do Curso</p>
+    </a>
+    <a href="/imagem.html?img=/carteirinha.png" class="grid-item">
+      <i class="fas fa-globe"></i>
+      <p class="title">CARTEIRINHA</p>
+    </a>
+    <div class="grid-item">
+      <i class="fas fa-clipboard-list"></i>
+      <p class="title">Notas e Faltas Bimestrais</p>
+    </div>
+    <div class="grid-item">
+      <i class="fas fa-file-alt"></i>
+      <p class="title">Médias e Exames Finais</p>
+    </div>
+    <div class="grid-item">
+      <i class="fas fa-calendar-alt"></i>
+      <p class="title">Integralização Curricular</p>
+    </div>
+    <div class="grid-item">
+      <i class="fas fa-money-bill-wave"></i>
+      <p class="title">Posição Financeira</p>
+    </div>
+    <div class="grid-item">
+      <i class="fas fa-file"></i>
+      <p class="title">Documentos Online</p>
+    </div>
+  </div>
+
+</body>
+</html>
